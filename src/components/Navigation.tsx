@@ -18,11 +18,15 @@ export default function Navigation() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex items-center gap-2">
-            <div className="p-2 rounded-full bg-gradient-primary">
-              <Brain size={20} className="text-primary-foreground" />
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 rounded-full overflow-hidden bg-gradient-primary p-0.5">
+              <img 
+                src="/src/assets/ravan-logo.jpeg" 
+                alt="Ravan Wellness Logo" 
+                className="w-full h-full object-cover rounded-full"
+              />
             </div>
-            <span className="text-xl font-bold text-foreground">MindfulMe</span>
+            <span className="text-xl font-bold text-foreground">RAVAN WELLNESS</span>
           </div>
 
           {/* Navigation Items */}
